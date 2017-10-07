@@ -4,4 +4,10 @@ declare namespace glFunctions {
   }
 }
 
+// declare module NodeJS  {
+//   interface Global {
+//     test(): void;
+//   }
+// }
+
 declare var global: glFunctions.global;

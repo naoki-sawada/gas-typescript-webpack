@@ -1,4 +1,4 @@
-export class Test {
+export default class Test {
   header: String;
   constructor() {
     this.header = 'Hello, ';
