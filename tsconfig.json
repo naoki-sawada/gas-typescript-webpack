@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "alwaysStrict": true,
+    "baseUrl": "./"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

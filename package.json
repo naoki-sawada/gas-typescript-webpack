@@ -1,0 +1,21 @@
+{
+  "name": "gas-typescript-webpack",
+  "version": "0.0.1",
+  "description": "This is an example of writing Google Apps Script in TypeScript and building with webpack",
+  "main": "src/index.ts",
+  "author": "Naoki Sawada",
+  "license": "MIT",
+  "scripts": {
+    "upload": "gapps upload",
+    "watch": "watch 'npm run build && npm run upload' src/",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^0.0.14",
+    "awesome-typescript-loader": "^3.2.3",
+    "gas-webpack-plugin": "^0.2.1",
+    "typescript": "^2.5.2",
+    "watch": "^1.0.2",
+    "webpack": "^3.5.6"
+  }
+}
