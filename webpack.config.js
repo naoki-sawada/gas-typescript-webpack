@@ -3,7 +3,7 @@ const config = require('config');
 const fs = require('fs');
 const path = require('path');
 
-fs.writeFileSync(path.resolve(__dirname, 'build/client.json'), JSON.stringify(config));
+fs.writeFileSync(path.resolve(__dirname, 'build/config.json'), JSON.stringify(config));
 
 module.exports = {
   entry: './src/index.ts',
@@ -14,7 +14,7 @@ module.exports = {
   resolve: {
     extensions: ['.ts'],
     alias: {
-      config: path.resolve(__dirname, 'build/client.json'),
+      config: path.resolve(__dirname, 'build/config.json'),
     },
   },
   module: {
