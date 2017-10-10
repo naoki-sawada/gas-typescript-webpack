@@ -6,6 +6,7 @@
   "author": "Naoki Sawada",
   "license": "MIT",
   "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "upload": "gapps upload",
     "watch": "watch 'npm run build && npm run upload' src/",
     "build": "webpack"
@@ -14,6 +15,7 @@
     "@types/google-apps-script": "^0.0.14",
     "awesome-typescript-loader": "^3.2.3",
     "gas-webpack-plugin": "^0.2.1",
+    "tslint": "^5.7.0",
     "typescript": "^2.5.2",
     "watch": "^1.0.2",
     "webpack": "^3.5.6"

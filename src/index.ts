@@ -1,5 +1,5 @@
-import Test from './Test';
-import { config } from 'config';
+import { config } from "config";
+import Test from "./Test";
 
 global.test = () => {
   const test = new Test();

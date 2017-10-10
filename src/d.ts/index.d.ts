@@ -1,1 +1,1 @@
-/// <reference path="global.functions.d.ts" />
+import "global.functions.d.ts";
