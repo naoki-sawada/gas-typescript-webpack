@@ -1,9 +1,9 @@
 export class Test {
-  header: String;
+  public header: string;
   constructor() {
-    this.header = 'Hello, ';
+    this.header = "Hello, ";
   }
-  echo(str: String): void {
+  public echo(str: string): void {
     Logger.log(`${this.header}${str}`);
   }
 }
