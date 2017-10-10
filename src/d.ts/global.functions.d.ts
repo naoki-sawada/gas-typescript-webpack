@@ -1,5 +1,5 @@
 declare namespace glFunctions {
-  export interface global {
+  interface global {
     test(): void;
   }
 }

@@ -1,6 +1,6 @@
-import { Test } from './Test';
+import { Test } from "./Test";
 
 global.test = () => {
   const test = new Test();
-  test.echo('world.');
+  test.echo("world.");
 };
