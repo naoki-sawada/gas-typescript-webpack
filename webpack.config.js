@@ -1,4 +1,5 @@
 const GasPlugin = require('gas-webpack-plugin');
+const es3ifyPlugin = require('es3ify-webpack-plugin');
 
 module.exports = {
   entry: './src/index.ts',
@@ -16,5 +17,6 @@ module.exports = {
   },
   plugins: [
     new GasPlugin(),
+    new es3ifyPlugin(),
   ],
 };
