@@ -4,6 +4,8 @@
 
 This is an example of writing Google Apps Script in TypeScript and building with webpack.
 
+Please Read at this [Japanease post](https://qiita.com/nsawa/items/96c5300c811856024789).
+
 ## Requirements
 
 * Node.js 6.10.0 or heigher
