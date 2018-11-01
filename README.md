@@ -56,3 +56,7 @@ If you watnt to use watch mode,
 ```
 $ npm run watch
 ```
+
+## License
+
+[MIT](LICENSE)
