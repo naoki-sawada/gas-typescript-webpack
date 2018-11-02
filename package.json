@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "upload": "gapps upload",
-    "watch": "watch 'npm run build && npm run upload' src/",
+    "push": "clasp push",
+    "watch": "watch 'npm run build && npm run push' src/",
     "build": "webpack --mode development"
   },
   "devDependencies": {

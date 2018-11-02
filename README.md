@@ -9,10 +9,11 @@ Please Read at this [Japanease post](https://qiita.com/nsawa/items/96c5300c81185
 ## Requirements
 
 * Node.js 6.10.0 or heigher
+* [clasp](https://github.com/google/clasp)
 
 ## Install
 
-### install this project
+### Install this project
 
 ```
 $ git clone https://github.com/naoki-sawada/gas-typescript-webpack.git
@@ -26,27 +27,31 @@ $ npm intall
 (or yarn)
 ```
 
-### node google apps-script
+### Install and setup the clasp
 
-Please install [node-google-apps-script](https://github.com/danthareja/node-google-apps-script).
-
-```
-$ npm install -g node-google-apps-script
-```
-
-After isntall `node-google-apps-script`, please read this [quick start](https://github.com/danthareja/node-google-apps-script#quickstart). And you shoud end setup to number 2 of quick start.
-
-Finally, initialize this gapps project.
+1. Install the [clasp](https://github.com/google/clasp).
 
 ```
-$ gapps init -s build <fileId>
+$ npm i @google/clasp -g
+```
+
+2. Login with your account.
+
+```
+$ clasp login
+```
+
+3. Create new Google Apps Script.
+
+```
+$ clasp create "My Script" --rootDir ./build
 ```
 
 ## Usage
 
 ```
 $ npm build
-$ npm run upload
+$ npm run push
 ```
 
 ## Development
