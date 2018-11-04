@@ -44,7 +44,7 @@ $ clasp login
 3. Create new Google Apps Script.
 
 ```
-$ clasp create "My Script" --rootDir ./build
+$ clasp create "My Script" --rootDir ./dist
 ```
 
 ## Usage
