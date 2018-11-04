@@ -1,6 +1,6 @@
 declare namespace glFunctions {
   interface global {
-    test(): void;
+    main(): void;
   }
 }
 

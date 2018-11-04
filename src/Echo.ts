@@ -1,9 +1,9 @@
-export class Test {
+export default class Echo {
   public header: string;
   constructor() {
     this.header = "Hello, ";
   }
-  public echo(str: string): void {
+  public print(str: string): void {
     Logger.log(`${this.header}${str}`);
   }
 }

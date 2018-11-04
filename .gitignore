@@ -1,5 +1,6 @@
-build/*.js
-gapps.config.json
+dist/*.js
+dist/appsscript.json
+.clasp.json
 
 # Created by https://www.gitignore.io/api/macos,node
 
