@@ -1,6 +1,6 @@
-import { Test } from "./Test";
+import Echo from "./Echo";
 
 global.main = () => {
-  const test = new Test();
-  test.echo("world.");
+  const echo = new Echo();
+  echo.print("world.");
 };
