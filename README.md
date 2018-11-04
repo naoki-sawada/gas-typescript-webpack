@@ -62,7 +62,7 @@ If you watnt to use watch mode, run the next command.
 $ npm run watch
 ```
 
-In this watch mode, the build file is automatically pushed when saving the contents in the `src` folder.
+In this watch mode, the build file is automatically pushed when saving the contents in the `src` folder.
 
 ## License
 
