@@ -2,13 +2,13 @@
 
 ## About
 
-This is an example of writing Google Apps Script in TypeScript and building with webpack.
+This is an example code for writing Google Apps Script in TypeScript and building with webpack.
 
 Please Read at this [Japanease post](https://qiita.com/nsawa/items/96c5300c811856024789).
 
 ## Requirements
 
-* Node.js 6.10.0 or heigher
+* Node.js v8 or heigher
 * [clasp](https://github.com/google/clasp)
 
 ## Install
@@ -35,7 +35,7 @@ $ npm intall
 $ npm i @google/clasp -g
 ```
 
-2. Login with your account.
+2. Login with your google account.
 
 ```
 $ clasp login
@@ -56,11 +56,13 @@ $ npm run push
 
 ## Development
 
-If you watnt to use watch mode,
+If you watnt to use watch mode, run the next command.
 
 ```
 $ npm run watch
 ```
+
+In this watch mode, the build file is automatically pushed when saving the contents in the `src` folder.
 
 ## License
 
