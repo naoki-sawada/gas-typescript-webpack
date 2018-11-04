@@ -1,7 +1,7 @@
 {
   "name": "gas-typescript-webpack",
   "version": "2.0.0",
-  "description": "This is an example of writing Google Apps Script in TypeScript and building with webpack",
+  "description": "This is an example code for writing Google Apps Script in TypeScript and building with webpack",
   "main": "src/index.ts",
   "author": "Naoki Sawada",
   "license": "MIT",
