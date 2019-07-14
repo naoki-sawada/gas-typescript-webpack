@@ -4,6 +4,8 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "alwaysStrict": true,
+    "lib": ["esnext"],
+    "experimentalDecorators": true,
     "baseUrl": "./"
   },
   "include": [
